@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -27,3 +28,6 @@ You can populate the `ProjectsGrid.js` file and add your projects there.
 Update the links to your social media in `Contact.js`.
 
 You can update the `Resume.js` and `Blog.js` sections to redirect to the correct locations.
+=======
+# divyanshuPortfolio
+>>>>>>> 5273771b69d27255617101eadec5a3381f91b900
