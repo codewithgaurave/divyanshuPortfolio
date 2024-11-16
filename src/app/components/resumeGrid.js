@@ -15,9 +15,7 @@ export default function ResumeGrid({ setCurrentGrid, animatedStyles }) {
   const name = "Resume".split("");
 
   const [subheadingIdx, setSubheadingIdx] = useState(0);
-  const subheading = "Here are my some top designed resuem...".split(
-    ""
-  );
+  const subheading = "Here are my some top designed resuem...".split("");
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -55,7 +53,9 @@ export default function ResumeGrid({ setCurrentGrid, animatedStyles }) {
           className="w-full h-full bg-[#BC4749] border border-black p-5 flex flex-col items-center justify-center"
         >
           <div className="bg-[#F2E8CF] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
-            <div className="text-2xl font-bold text-[#BC4749]">Professional Resume</div>
+            <div className="text-2xl font-bold text-[#BC4749]">
+              Professional Resume
+            </div>
             <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
               <a
                 href="/path/to/certificate1.pdf"
@@ -98,6 +98,17 @@ export default function ResumeGrid({ setCurrentGrid, animatedStyles }) {
           style={trails[0]}
           className="w-full h-full p-10 bg-[#386641] border border-black flex flex-col items-center justify-center gap-3"
         >
+          <div
+            className="text-4xl bg-[#BC4749] font-bold text-[#BC4749]"
+            id="home"
+          >
+            <span
+              className="inline-block mx-2 animate-pulse"
+              style={{ color: "white" }}
+            >
+              Back To Home
+            </span>
+          </div>
           <div className="border border-neutral-900 bg-[#F2E8CF] w-fit px-5 py-3">
             <span className="text-4xl font-bold text-[#BC4749]" id="home">
               {name.slice(0, nameIdx).join("")}

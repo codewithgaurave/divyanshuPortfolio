@@ -15,9 +15,7 @@ export default function EducationGrid({ setCurrentGrid, animatedStyles }) {
   const name = "Education".split("");
 
   const [subheadingIdx, setSubheadingIdx] = useState(0);
-  const subheading = "Here are Some Institure where I teach..".split(
-    ""
-  );
+  const subheading = "Here are Some Institure where I teach..".split("");
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -46,47 +44,44 @@ export default function EducationGrid({ setCurrentGrid, animatedStyles }) {
 
   return (
     <animated.div className="grid grid-cols-1 lg:grid-cols-9 lg:grid-rows-9 w-screen lg:h-screen p-5 gap-5 bg-stone-200">
-<animated.div
-  style={animatedStyles} // Apply animation from animatedStyles
-  className="row-start-4 lg:row-span-3 lg:col-span-4"
->
-  {/* Education Section - Animated */}
-  <animated.div
-    style={trails[1]} // Apply animation from trails[1] (for Education section)
-    className="w-full h-full bg-[#BC4749] border border-black p-5 flex flex-col items-start justify-start"
-  >
-    {/* Inner content of Education Section */}
-    <div className="bg-[#F2E8CF] w-full h-full p-5 my-3 flex flex-col gap-1.5 border border-black">
-      
-      {/* University Name */}
-      <div className="text-2xl font-bold text-[#BC4749]">
-        University Name
-      </div>
+      <animated.div
+        style={animatedStyles} // Apply animation from animatedStyles
+        className="row-start-4 lg:row-span-3 lg:col-span-4"
+      >
+        {/* Education Section - Animated */}
+        <animated.div
+          style={trails[1]} // Apply animation from trails[1] (for Education section)
+          className="w-full h-full bg-[#BC4749] border border-black p-5 flex flex-col items-start justify-start"
+        >
+          {/* Inner content of Education Section */}
+          <div className="bg-[#F2E8CF] w-full h-full p-5 my-3 flex flex-col gap-1.5 border border-black">
+            {/* University Name */}
+            <div className="text-2xl font-bold text-[#BC4749]">
+              University Name
+            </div>
 
-      {/* Degree */}
-      <div className="text-xl text-[#2A9D8F]">
-        Degree: Bachelor `&apos;` s in Computer Science
-      </div>
+            {/* Degree */}
+            <div className="text-xl text-[#2A9D8F]">
+              Degree: Bachelor `&apos;` s in Computer Science
+            </div>
 
-      {/* Time Period (Start Year - End Year) */}
-      <div className="text-md text-[#2A9D8F]">
-        Time Period: 2015 - 2019
-      </div>
+            {/* Time Period (Start Year - End Year) */}
+            <div className="text-md text-[#2A9D8F]">
+              Time Period: 2015 - 2019
+            </div>
 
-      {/* Course Completed */}
-      <div className="text-md text-[#2A9D8F]">
-        Course: Software Engineering, Web Development, Data Structures
-      </div>
+            {/* Course Completed */}
+            <div className="text-md text-[#2A9D8F]">
+              Course: Software Engineering, Web Development, Data Structures
+            </div>
 
-      {/* Grade and Percentage */}
-      <div className="text-md text-[#2A9D8F]">
-        Grade: A | Percentage: 90%
-      </div>
-    </div>
-  </animated.div>
-</animated.div>
-
-
+            {/* Grade and Percentage */}
+            <div className="text-md text-[#2A9D8F]">
+              Grade: A | Percentage: 90%
+            </div>
+          </div>
+        </animated.div>
+      </animated.div>
 
       <animated.div
         style={animatedStyles}
@@ -117,6 +112,17 @@ export default function EducationGrid({ setCurrentGrid, animatedStyles }) {
           style={trails[0]}
           className="w-full h-full p-10 bg-[#386641] border border-black flex flex-col items-center justify-center gap-3"
         >
+          <div
+            className="text-4xl bg-[#BC4749] font-bold text-[#BC4749]"
+            id="home"
+          >
+            <span
+              className="inline-block mx-2 animate-pulse"
+              style={{ color: "white" }}
+            >
+              Back To Home
+            </span>
+          </div>
           <div className="border border-neutral-900 bg-[#F2E8CF] w-fit px-5 py-3">
             <span className="text-4xl font-bold text-[#BC4749]" id="home">
               {name.slice(0, nameIdx).join("")}

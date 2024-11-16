@@ -615,6 +615,9 @@ video {
 .w-screen {
   width: 100vw;
 }
+.w-2 {
+  width: 0.5rem;
+}
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -737,6 +740,24 @@ video {
 .bg-stone-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(231 229 228 / var(--tw-bg-opacity));
+}
+.bg-\[\#F\] {
+  background-color: #F;
+}
+.bg-\[\#\] {
+  background-color: #;
+}
+.bg-\[\#3866\] {
+  background-color: #3866;
+}
+.bg-\[\#38\] {
+  background-color: #38;
+}
+.bg-\[\#b\] {
+  background-color: #b;
+}
+.bg-\[\#BC\] {
+  background-color: #BC;
 }
 .p-10 {
   padding: 2.5rem;

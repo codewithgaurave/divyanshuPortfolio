@@ -99,7 +99,15 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
           style={trails[0]}
           className="w-full h-full p-10 bg-[#386641] border border-black flex flex-col items-center justify-center gap-3"
         >
-          <div className="border border-neutral-900 bg-[#F2E8CF] w-fit px-5 py-3">
+          <div
+            className="text-4xl bg-[#BC4749] font-bold text-[#BC4749]"
+            id="home"
+          >
+            <span className="inline-block mx-2 animate-pulse" style={{color:'white'}}>
+              Back To Home
+            </span>
+          </div>
+          <div className="border border-neutral-900 flex flex-col gap-5 bg-[#F2E8CF] w-fit px-5 py-3">
             <span className="text-4xl font-bold text-[#BC4749]" id="home">
               {name.slice(0, nameIdx).join("")}
               <span className="inline-block mx-2 w-6 h-1 bg-[#2A9D8F] animate-pulse"></span>
