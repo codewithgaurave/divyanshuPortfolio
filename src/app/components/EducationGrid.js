@@ -65,7 +65,7 @@ export default function EducationGrid({ setCurrentGrid, animatedStyles }) {
 
       {/* Degree */}
       <div className="text-xl text-[#2A9D8F]">
-        Degree: Bachelor's in Computer Science
+        Degree: Bachelor `&apos;` s in Computer Science
       </div>
 
       {/* Time Period (Start Year - End Year) */}

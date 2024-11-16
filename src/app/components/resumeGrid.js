@@ -10,7 +10,7 @@ import Contact from "./Contact";
 import Misc from "./Misc";
 import { GRIDS } from "../constants";
 
-export default function resumeGrid({ setCurrentGrid, animatedStyles }) {
+export default function ResumeGrid({ setCurrentGrid, animatedStyles }) {
   const [nameIdx, setNameIdx] = useState(0);
   const name = "Resume".split("");
 
