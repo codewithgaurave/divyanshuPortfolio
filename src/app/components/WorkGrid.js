@@ -75,9 +75,23 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-3 lg:col-span-5"
       >
         <animated.div
-          style={trails[3]}
-          className="w-full h-full relative bg-[#A7C957] border border-black"
-        ></animated.div>
+          style={trails[1]}
+          className="w-full h-full bg-[#BC4749] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#F2E8CF] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#BC4749]">ABC Corp</div>
+            <div className="text-md text-[#2A9D8F]">2018-2022</div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate1.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#E9C46A]"
+              >
+                Download Certificate
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -86,8 +100,22 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
       >
         <animated.div
           style={trails[2]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          className="w-full h-full bg-[#2A9D8F] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#E76F51] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#264653]">XYZ Inc</div>
+            <div className="text-md text-[#E9C46A]">2015-2018</div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#F4A261] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate2.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#F2E8CF]"
+              >
+                Download Certificate
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -103,7 +131,10 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
             className="text-4xl bg-[#BC4749] font-bold text-[#BC4749]"
             id="home"
           >
-            <span className="inline-block mx-2 animate-pulse" style={{color:'white'}}>
+            <span
+              className="inline-block mx-2 animate-pulse"
+              style={{ color: "white" }}
+            >
               Back To Home
             </span>
           </div>
@@ -127,9 +158,23 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-6 lg:col-span-3"
       >
         <animated.div
-          style={trails[4]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          style={trails[3]}
+          className="w-full h-full bg-[#E9C46A] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#264653] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#E76F51]">LMN Ltd</div>
+            <div className="text-md text-[#F4A261]">2010-2015</div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#2A9D8F] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate3.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#F2E8CF]"
+              >
+                Download Certificate
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -138,8 +183,22 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
       >
         <animated.div
           style={trails[4]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          className="w-full h-full bg-[#264653] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#F4A261] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#2A9D8F]">DEF Pvt</div>
+            <div className="text-md text-[#BC4749]">2005-2010</div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#F2E8CF] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate4.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#264653]"
+              >
+                Download Certificate
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
     </animated.div>
   );

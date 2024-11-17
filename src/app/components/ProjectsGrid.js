@@ -105,9 +105,31 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-3 lg:col-span-4"
       >
         <animated.div
-          style={trails[3]}
-          className="w-full h-full relative bg-[#BC4749] border border-black"
-        ></animated.div>
+          style={trails[1]}
+          className="w-full h-full bg-[#FFD166] border border-black p-5 flex flex-col items-start justify-between"
+        >
+          <div className="bg-[#F2E8CF] w-full p-5 my-3 flex border border-black">
+            <div className="flex-1">
+              <div className="text-2xl font-bold text-[#BC4749]">Quiz App</div>
+              <div className="text-md text-[#2A9D8F] text-left mt-2">
+                An interactive quiz application with timer functionality and
+                performance tracking.
+              </div>
+            </div>
+            <div className="flex items-center justify-end">
+              <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-neutral-900 text-3xl font-bold text-[#E9C46A]"
+                >
+                  Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -116,8 +138,32 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
       >
         <animated.div
           style={trails[2]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          className="w-full h-full bg-[#06D6A0] border border-black p-5 flex flex-col items-start justify-between"
+        >
+          <div className="bg-[#F2E8CF] w-full p-5 my-3 flex border border-black">
+            <div className="flex-1">
+              <div className="text-2xl font-bold text-[#BC4749]">
+                Portfolio Website
+              </div>
+              <div className="text-md text-[#2A9D8F] text-left mt-2">
+                A personal portfolio showcasing projects, skills, and
+                experience.
+              </div>
+            </div>
+            <div className="flex items-center justify-end">
+              <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-neutral-900 text-3xl font-bold text-[#E9C46A]"
+                >
+                  Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -160,9 +206,33 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-3 lg:col-span-3"
       >
         <animated.div
-          style={trails[4]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          style={trails[3]}
+          className="w-full h-full bg-[#118AB2] border border-black p-5 flex flex-col items-start justify-between"
+        >
+          <div className="bg-[#F2E8CF] w-full p-5 my-3 flex border border-black">
+            <div className="flex-1">
+              <div className="text-2xl font-bold text-[#BC4749]">
+                Chat Application
+              </div>
+              <div className="text-md text-[#2A9D8F] text-left mt-2">
+                A real-time chat app with WebSocket integration and customizable
+                chat rooms.
+              </div>
+            </div>
+            <div className="flex items-center justify-end">
+              <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-neutral-900 text-3xl font-bold text-[#E9C46A]"
+                >
+                  Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -170,9 +240,33 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-3 lg:col-span-4"
       >
         <animated.div
-          style={trails[5]}
-          className="w-full h-full relative bg-[#BC4749] border border-neutral-900"
-        ></animated.div>
+          style={trails[4]}
+          className="w-full h-full bg-[#073B4C] border border-black p-5 flex flex-col items-start justify-between"
+        >
+          <div className="bg-[#F2E8CF] w-full p-5 my-3 flex border border-black">
+            <div className="flex-1">
+              <div className="text-2xl font-bold text-[#BC4749]">
+                Online Nursery Platform
+              </div>
+              <div className="text-md text-[#2A9D8F] text-left mt-2">
+                An online plant nursery for purchasing and learning about
+                plants.
+              </div>
+            </div>
+            <div className="flex items-center justify-end">
+              <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-neutral-900 text-3xl font-bold text-[#E9C46A]"
+                >
+                  Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -180,9 +274,32 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-3 lg:col-span-2"
       >
         <animated.div
-          style={trails[4]}
-          className="w-full h-full lg:flex justify-between items-center p-10 gap-5 bg-[#A7C957] border border-black"
-        ></animated.div>
+          style={trails[0]}
+          className="w-full h-full bg-[#FF6F61] border border-black p-5 flex flex-col items-start justify-between"
+        >
+          <div className="bg-[#F2E8CF] w-full p-2 flex border border-black">
+            <div className="flex-1">
+              <div className="text-2xl font-bold text-[#BC4749]">
+                E-commerce App
+              </div>
+              <div className="text-sm text-[#2A9D8F] text-left">
+                A scalable e-commerce platform with React, Node.js, and MongoDB.
+              </div>
+            </div>
+            <div className="flex items-center justify-end">
+              <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-neutral-900 text-3xl font-bold text-[#E9C46A]"
+                >
+                  Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
     </animated.div>
   );

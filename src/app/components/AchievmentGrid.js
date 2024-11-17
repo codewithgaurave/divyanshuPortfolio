@@ -74,9 +74,22 @@ export default function AchievmentGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-3 lg:col-span-5"
       >
         <animated.div
-          style={trails[3]}
-          className="w-full h-full relative bg-[#A7C957] border border-black"
-        ></animated.div>
+          style={trails[1]}
+          className="w-full h-full bg-[#BC4749] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#F2E8CF] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#BC4749]">Achievement</div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate1.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#E9C46A]"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -84,9 +97,22 @@ export default function AchievmentGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:col-span-3 lg:row-span-6"
       >
         <animated.div
-          style={trails[2]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          style={trails[1]}
+          className="w-full h-full bg-[#BC4749] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#F2E8CF] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#BC4749]">Achievement</div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate1.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#E9C46A]"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -126,9 +152,22 @@ export default function AchievmentGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-6 lg:col-span-3"
       >
         <animated.div
-          style={trails[4]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          style={trails[1]}
+          className="w-full h-full bg-[#BC4749] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#F2E8CF] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#BC4749]">Achievement</div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate1.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#E9C46A]"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -136,9 +175,22 @@ export default function AchievmentGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-3 lg:col-span-3"
       >
         <animated.div
-          style={trails[4]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          style={trails[1]}
+          className="w-full h-full bg-[#BC4749] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#F2E8CF] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#6A994E]">Achievement</div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#264653] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate1.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#E9C46A]"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
     </animated.div>
   );

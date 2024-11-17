@@ -74,9 +74,24 @@ export default function ResumeGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-3 lg:col-span-5"
       >
         <animated.div
-          style={trails[3]}
-          className="w-full h-full relative bg-[#A7C957] border border-black"
-        ></animated.div>
+          style={trails[2]}
+          className="w-full h-full bg-[#2A9D8F] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#E9C46A] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#264653]">
+              Cover Letter
+            </div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#F4A261] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate2.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#2A9D8F]"
+              >
+                Download Cover Letter
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -84,9 +99,24 @@ export default function ResumeGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:col-span-3 lg:row-span-6"
       >
         <animated.div
-          style={trails[2]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          style={trails[4]}
+          className="w-full h-full bg-[#264653] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#E76F51] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#F2E8CF]">
+              Certificates
+            </div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#F4A261] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate4.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#264653]"
+              >
+                Download Certificates
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -129,9 +159,24 @@ export default function ResumeGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-6 lg:col-span-3"
       >
         <animated.div
-          style={trails[4]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          style={trails[3]}
+          className="w-full h-full bg-[#F4A261] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#264653] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#E9C46A]">
+              Portfolio Document
+            </div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#2A9D8F] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate3.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#F2E8CF]"
+              >
+                Download Portfolio
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -140,8 +185,23 @@ export default function ResumeGrid({ setCurrentGrid, animatedStyles }) {
       >
         <animated.div
           style={trails[4]}
-          className="w-full h-full relative bg-[#6A994E] border border-neutral-900"
-        ></animated.div>
+          className="w-full h-full bg-[#264653] border border-black p-5 flex flex-col items-center justify-center"
+        >
+          <div className="bg-[#E76F51] w-full p-5 my-3 border border-black flex flex-col items-center gap-3">
+            <div className="text-2xl font-bold text-[#F2E8CF]">
+              Certificates
+            </div>
+            <div className="cursor-pointer hover:scale-105 transition-all bg-[#F4A261] w-fit px-5 py-2 m-3 border border-black">
+              <a
+                href="/path/to/certificate4.pdf"
+                download
+                className="font-neutral-900 text-3xl font-bold text-[#264653]"
+              >
+                Download Certificates
+              </a>
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
     </animated.div>
   );

@@ -573,6 +573,9 @@ video {
 .mt-4 {
   margin-top: 1rem;
 }
+.mt-2 {
+  margin-top: 0.5rem;
+}
 .inline-block {
   display: inline-block;
 }
@@ -614,9 +617,6 @@ video {
 }
 .w-screen {
   width: 100vw;
-}
-.w-2 {
-  width: 0.5rem;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -741,29 +741,38 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(231 229 228 / var(--tw-bg-opacity));
 }
-.bg-\[\#F\] {
-  background-color: #F;
+.bg-\[\#E76F51\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 111 81 / var(--tw-bg-opacity));
 }
-.bg-\[\#\] {
-  background-color: #;
+.bg-\[\#FFD166\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 209 102 / var(--tw-bg-opacity));
 }
-.bg-\[\#3866\] {
-  background-color: #3866;
+.bg-\[\#06D6A0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 214 160 / var(--tw-bg-opacity));
 }
-.bg-\[\#38\] {
-  background-color: #38;
+.bg-\[\#118AB2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 138 178 / var(--tw-bg-opacity));
 }
-.bg-\[\#b\] {
-  background-color: #b;
+.bg-\[\#073B4C\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(7 59 76 / var(--tw-bg-opacity));
 }
-.bg-\[\#BC\] {
-  background-color: #BC;
+.bg-\[\#FF6F61\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 111 97 / var(--tw-bg-opacity));
 }
 .p-10 {
   padding: 2.5rem;
 }
 .p-5 {
   padding: 1.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
 }
 .px-5 {
   padding-left: 1.25rem;
@@ -803,6 +812,10 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -813,6 +826,10 @@ video {
 .text-\[\#2A9D8F\] {
   --tw-text-opacity: 1;
   color: rgb(42 157 143 / var(--tw-text-opacity));
+}
+.text-\[\#6A994E\] {
+  --tw-text-opacity: 1;
+  color: rgb(106 153 78 / var(--tw-text-opacity));
 }
 .text-\[\#BC4749\] {
   --tw-text-opacity: 1;
@@ -825,6 +842,14 @@ video {
 .text-\[\#E9C46A\] {
   --tw-text-opacity: 1;
   color: rgb(233 196 106 / var(--tw-text-opacity));
+}
+.text-\[\#F2E8CF\] {
+  --tw-text-opacity: 1;
+  color: rgb(242 232 207 / var(--tw-text-opacity));
+}
+.text-\[\#F4A261\] {
+  --tw-text-opacity: 1;
+  color: rgb(244 162 97 / var(--tw-text-opacity));
 }
 .antialiased {
   -webkit-font-smoothing: antialiased;
